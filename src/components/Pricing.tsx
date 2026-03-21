@@ -126,6 +126,7 @@ const Pricing = () => {
               </ul>
 
               <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className={`w-full py-4 rounded-sm text-sm font-bold uppercase tracking-widest transition-colors duration-300 ${
                   plan.highlighted
                     ? 'bg-accent text-dark hover:bg-yellow-600'
