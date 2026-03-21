@@ -11,7 +11,7 @@ const portfolioItems = {
     { id: 5, url: '/IMG_0154.jpg', category: 'CANDID' },
   ],
   Reels: [
-    { id: 7, url: '/reel1.MP4', category: 'HIGHLIGHTS' },
+    { id: 7, url: '/reel1.mp4', category: 'HIGHLIGHTS' },
     { id: 8, url: '/reel2.MOV', category: 'TEASER' },
     { id: 9, url: '/AF0BF504-0684-4948-8895-FAD97F6FC735.MOV', category: 'REEL' },
   ],
