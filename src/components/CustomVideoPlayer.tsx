@@ -88,12 +88,12 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({ src }) => {
         muted={isMuted}
         playsInline
         onClick={togglePlay}
-        className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105 cursor-pointer"
+        className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105 cursor-pointer"
       />
       
       {/* Controls Overlay */}
       <div 
-        className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover/player:opacity-100 transition-opacity duration-300 z-30"
+        className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-100 md:opacity-0 md:group-hover/player:opacity-100 transition-opacity duration-300 z-30"
         onClick={(e) => {
           e.stopPropagation();
           e.preventDefault();
