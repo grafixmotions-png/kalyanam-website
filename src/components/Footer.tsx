@@ -56,7 +56,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-beige/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-beige/50 text-xs tracking-wider">
-            &copy; {new Date().getFullYear()} KALYANAM VIDEOGRAPHY. ALL RIGHTS RESERVED.Built by <a href="https://www.instagram.com/turntople" target="_blank">Turntople Studios</a>
+            &copy; {new Date().getFullYear()} KALYANAM VIDEOGRAPHY. ALL RIGHTS RESERVED. BUILT BY <a href="https://www.instagram.com/turntople" target="_blank">TURNTOPLE STUDIOS</a>
           </p>
 
           <button
